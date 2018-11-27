@@ -2,7 +2,7 @@
 # Script to create an admin user
 
 # Call the base config
-/bin/bash ../Baseconfig/baseconfig.sh
+/bin/bash ./Baseconfig/baseconfig.sh
 
 # Update 
 sudo yum update -y

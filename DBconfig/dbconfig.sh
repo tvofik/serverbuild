@@ -2,7 +2,7 @@
 # Set up MySQL DB
 
 # Call the base config
-/bin/bash ../Baseconfig/baseconfig.sh
+/bin/bash ./Baseconfig/baseconfig.sh
 
 # Install DB
 sudo yum install mariadb-server mariadb

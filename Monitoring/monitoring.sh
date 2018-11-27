@@ -2,7 +2,7 @@
 # Script to install Nagios
 
 # Call the base config
-/bin/bash ../Baseconfig/baseconfig.sh
+/bin/bash ./Baseconfig/baseconfig.sh
 
 # Install Prerequisiites 
 yum install httpd php php-cli gcc glibc glibc-common gd gd-devel net-snmp openssl-devel wget unzip -y
